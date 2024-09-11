@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, '/public')));
 
 // Servir les fichiers statiques depuis src
-app.use('/src', express.static(path.join(__dirname, '../SITEF/src')));
+app.use('/src', express.static(path.join(__dirname, '/src')));
 
 app.use('/js', express.static(path.join(__dirname, 'src/js')));
 app.use('/lib', express.static(path.join(__dirname, 'src/lib')));
