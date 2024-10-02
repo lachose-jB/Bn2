@@ -10,6 +10,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use('/src', express.static(path.join(__dirname, '/src')));
 
 app.use('/js', express.static(path.join(__dirname, 'src/js')));
+app.use('/controler', express.static(path.join(__dirname, 'src/controler')));
 app.use('/lib', express.static(path.join(__dirname, 'src/lib')));
 
 
@@ -27,6 +28,10 @@ app.get('/appropos', (req, res) => {
 
 app.get('/blog', (req, res) => {
     res.sendFile(path.join(__dirname, 'views/blog.html'));
+});
+
+app.get('/formation', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views/formation.html'));
 });
 
 app.get('/contact', (req, res) => {
