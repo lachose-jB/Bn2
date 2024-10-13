@@ -1,4 +1,3 @@
-// Fonction pour incrémenter les nombres avec animation
 function counterUp(element, start, end, duration) {
     let current = start;
     const range = end - start;
@@ -20,12 +19,12 @@ window.addEventListener('DOMContentLoaded', () => {
     const prixElement = document.getElementById('PrixGagner');
 
     // Définir les valeurs finales
-    const clientsSatisfaits = 500;  // Remplace par le nombre réel de clients satisfaits
-    const partenaires = 100;        // Remplace par le nombre réel de partenaires
-    const prixGagnes = 20;          // Remplace par le nombre réel de prix gagnés
+    const clientsSatisfaits = 500;
+    const partenaires = 100;     
+    const prixGagnes = 20;       
 
     // Lancer les compteurs
-    counterUp(clientsElement, 0, clientsSatisfaits, 2000); // Compte de 0 à 500 en 2 secondes
-    counterUp(partenairesElement, 0, partenaires, 2000);   // Compte de 0 à 100 en 2 secondes
-    counterUp(prixElement, 0, prixGagnes, 2000);           // Compte de 0 à 20 en 2 secondes
+    counterUp(clientsElement, 0, clientsSatisfaits, 2000);
+    counterUp(partenairesElement, 0, partenaires, 2000);
+    counterUp(prixElement, 0, prixGagnes, 2000); 
 });
