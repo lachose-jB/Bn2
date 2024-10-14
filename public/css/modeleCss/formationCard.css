@@ -1,7 +1,7 @@
 /* Style pour la mise en grille des cartes */
 .formaContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+  grid-template-columns: repeat(3, 1fr); /* 4 colonnes */
   gap: 20px; /* Espace entre les cartes */
   padding: 20px;
   justify-content: center; /* Centrer la grille horizontalement */
@@ -36,7 +36,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -127,7 +127,13 @@
       transform: rotate(360deg);
     }
   }
-  
+  .card_title__container, .card_paragraph{
+    text-align: center !important;
+  }
+  .card_paragraph{
+    left: 15%;
+    position: relative;
+  }
   .cardF .card_title__container .card_title {
     font-size: 2rem;
     color: var(--white);
@@ -136,8 +142,7 @@
   .cardF .card_title__container .card_paragraph {
     margin-top: 0.25rem;
     width: 65%;
-  
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--paragraph);
   }
   
@@ -203,4 +208,35 @@
     border-radius: 9999px;
     box-shadow: inset 0 -2px 25px -4px var(--white);
   }
-  
+  .popup-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Pour un fond semi-transparent */
+    display: none; /* Masqué par défaut */
+    opacity: 0; /* Préparé pour l'animation */
+    transition: opacity 0.5s ease;
+    z-index: 1000; /* Assurez-vous que la popup est au-dessus du reste du contenu */
+}
+
+.popup-box {
+    width: 80%;
+    max-width: 500px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.popup-box.transform-in {
+    transform: scale(1); /* Apparition */
+}
+
+.popup-box.transform-out {
+    transform: scale(0); /* Disparition */
+}

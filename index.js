@@ -11,6 +11,7 @@ app.use('/src', express.static(path.join(__dirname, 'src')));
 app.use('/js', express.static(path.join(__dirname, 'src/js')));
 app.use('/controler', express.static(path.join(__dirname, 'src/controler')));
 app.use('/models', express.static(path.join(__dirname, 'src/models')));
+app.use('/donner', express.static(path.join(__dirname, 'src/donner')));
 app.use('/lib', express.static(path.join(__dirname, 'src/lib')));
 
 // Route pour la page d'accueil
