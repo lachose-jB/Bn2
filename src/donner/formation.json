@@ -1,0 +1,56 @@
+[
+    {
+        "Formation_Title": "Keys to Success",
+        "Modules": [
+            {
+                "Module_Title": "Set Clear Goals",
+                "Description": "Apprendre à définir des objectifs clairs pour réussir."
+            },
+            {
+                "Module_Title": "Stay Organized",
+                "Description": "Techniques pour rester organisé et gérer son temps."
+            },
+            {
+                "Module_Title": "Continuous Learning",
+                "Description": "Importance de l'apprentissage continu pour le succès."
+            }
+        ],
+        "Description": "Spécialisation et préparation aux certifications"
+    },
+    {
+        "Formation_Title": "Effective Communication",
+        "Modules": [
+            {
+                "Module_Title": "Active Listening",
+                "Description": "Développer des compétences d'écoute active."
+            },
+            {
+                "Module_Title": "Non-verbal Communication",
+                "Description": "Comprendre l'importance du langage corporel."
+            },
+            {
+                "Module_Title": "Public Speaking",
+                "Description": "Techniques pour s'exprimer en public avec confiance."
+            }
+        ],
+        "Description": "Améliorer ses compétences en communication."
+    },
+    {
+        "Formation_Title": "Project Management",
+        "Modules": [
+            {
+                "Module_Title": "Planning and Scheduling",
+                "Description": "Techniques de planification et d'organisation des projets."
+            },
+            {
+                "Module_Title": "Risk Management",
+                "Description": "Identifier et gérer les risques dans les projets."
+            },
+            {
+                "Module_Title": "Team Collaboration",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            }
+        ],
+        "Description": "Comprendre les bases de la gestion de projet."
+    }
+]

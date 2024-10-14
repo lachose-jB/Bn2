@@ -7,14 +7,11 @@ const app = express();
 app.use(express.static(path.join(__dirname, '/public')));
 
 // Servir les fichiers statiques depuis src
-app.use('/src', express.static(path.join(__dirname, '/src')));
-
+app.use('/src', express.static(path.join(__dirname, 'src')));
 app.use('/js', express.static(path.join(__dirname, 'src/js')));
 app.use('/controler', express.static(path.join(__dirname, 'src/controler')));
+app.use('/models', express.static(path.join(__dirname, 'src/models')));
 app.use('/lib', express.static(path.join(__dirname, 'src/lib')));
-
-
-
 
 // Route pour la page d'accueil
 app.get('/', (req, res) => {
@@ -23,7 +20,7 @@ app.get('/', (req, res) => {
 
 // Routes pour les autres pages
 app.get('/appropos', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/appropos.html')); // Chemin corrigé
+    res.sendFile(path.join(__dirname, 'views/appropos.html'));
 });
 
 app.get('/blog', (req, res) => {
@@ -59,7 +56,7 @@ app.get('/quote', (req, res) => {
 });
 
 app.get('/services', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/services.html')); // Chemin corrigé
+    res.sendFile(path.join(__dirname, 'views/services.html')); 
 });
 
 app.get('/equipe', (req, res) => {
@@ -67,15 +64,12 @@ app.get('/equipe', (req, res) => {
 });
 
 app.get('/testimonial', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/temoignage.html')); // Chemin corrigé
+    res.sendFile(path.join(__dirname, 'views/testimonial.html')); // Correction du nom de fichier
 });
-
 
 // Démarrer le serveur
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
-
-
 module.exports = app;
