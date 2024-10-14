@@ -1,53 +1,169 @@
-[
+                         [
     {
-        "Formation_Title": "Keys to Success",
+        "Formation_Title": "GESTION DE PROJET",
         "Modules": [
             {
-                "Module_Title": "Set Clear Goals",
+                "Module_Title": "SCRUM MASTER",
                 "Description": "Apprendre à définir des objectifs clairs pour réussir."
             },
             {
-                "Module_Title": "Stay Organized",
+                "Module_Title": "PRODUCT OWNER",
                 "Description": "Techniques pour rester organisé et gérer son temps."
             },
             {
-                "Module_Title": "Continuous Learning",
+                "Module_Title": "PMP: PROJECT MANAGEMENT PROFESSIONNEL",
                 "Description": "Importance de l'apprentissage continu pour le succès."
             }
         ],
         "Description": "Spécialisation et préparation aux certifications"
     },
     {
-        "Formation_Title": "Effective Communication",
+        "Formation_Title": "CYBER SECURITE",
         "Modules": [
             {
-                "Module_Title": "Active Listening",
+                "Module_Title": "SENSIBILISATION À LA SÉCURITÉ DE VOTRE PATRIMOINE INFORMATIQUE",
                 "Description": "Développer des compétences d'écoute active."
             },
             {
-                "Module_Title": "Non-verbal Communication",
+                "Module_Title": "CYBERHARCELEMENT",
                 "Description": "Comprendre l'importance du langage corporel."
             },
             {
-                "Module_Title": "Public Speaking",
+                "Module_Title": "FORMATION AVANCÉE SUR PENTEST (TEST D'INTRUSION) ET DURCISSEMENT",
                 "Description": "Techniques pour s'exprimer en public avec confiance."
             }
         ],
         "Description": "Améliorer ses compétences en communication."
     },
     {
-        "Formation_Title": "Project Management",
+        "Formation_Title": "DEVELOPPEMENT SITE WEB",
         "Modules": [
             {
-                "Module_Title": "Planning and Scheduling",
+                "Module_Title": "DÉVELOPPEMENT WEB",
                 "Description": "Techniques de planification et d'organisation des projets."
             },
             {
-                "Module_Title": "Risk Management",
+                "Module_Title": "DÉVELOPPEMENT WEB",
                 "Description": "Identifier et gérer les risques dans les projets."
             },
             {
-                "Module_Title": "Team Collaboration",
+                "Module_Title": "DÉVELOPPEMENT APPLICATION MOBILE",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            }
+        ],
+        "Description": "Comprendre les bases de la gestion de projet."
+    },
+    {
+        "Formation_Title": "LE LEADERSHIP",
+        "Modules": [
+            {
+                "Module_Title": "LES FONDAMENTAUX DU LEADERSHIP",
+                "Description": "Techniques de planification et d'organisation des projets."
+            },
+            {
+                "Module_Title": "LEADERSHIP STRATÉGIQUE ET PRISE DE DÉCISION",
+                "Description": "Identifier et gérer les risques dans les projets."
+            },
+            {
+                "Module_Title": "LEADERSHIP COLLABORATIF ET GESTION DES ÉQUIPES",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            }
+        ],
+        "Description": "Comprendre les bases de la gestion de projet."
+    },
+    {
+        "Formation_Title": "MARKETING DIGITAL",
+        "Modules": [
+            {
+                "Module_Title": "FORMATION MARKETING DIGITAL",
+                "Description": "Techniques de planification et d'organisation des projets."
+            },
+            {
+                "Module_Title": "FORMATION MARKETING DIGITAL",
+                "Description": "Identifier et gérer les risques dans les projets."
+            },
+            {
+                "Module_Title": "FORMATION MARKETING DIGITAL",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            }
+        ],
+        "Description": "Comprendre les bases de la gestion de projet."
+    },
+    {
+        "Formation_Title": "MAINTENANCE IT",
+        "Modules": [
+            {
+                "Module_Title": "MAINTENANCE PRÉVENTIVE ET CURATIVE",
+                "Description": "Techniques de planification et d'organisation des projets."
+            },
+            {
+                "Module_Title": "GESTION DES INCIDENTS ET SUPPORT TECHNIQUE",
+                "Description": "Identifier et gérer les risques dans les projets."
+            },
+            {
+                "Module_Title": "MAINTENANCE DES INFRASTRUCTURES IT (RÉSEAU, SYSTÈMES ET SERVEURS)",
+                           "Description": "Favoriser la collaboration au sein d'une équipe."
+            }
+        ],
+        "Description": "Comprendre les bases de la gestion de projet."
+    },
+    {
+        "Formation_Title": "INITIATION A L’INFORMATIQUE : MS OFFICE",
+        "Modules": [
+            {
+                "Module_Title": "FORMATION WORD",
+                "Description": "Techniques de planification et d'organisation des projets."
+            },
+            {
+                "Module_Title": "FORMATION EXCEL",
+                "Description": "Identifier et gérer les risques dans les projets."
+            },
+            {
+                "Module_Title": "FORMATION POWERPOINT",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            },
+            {
+                "Module_Title": "FORMATION ACCESS",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            },
+            {
+                "Module_Title": "FORMATION : PHOTOSHOP",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            }
+        ],
+        "Description": "Comprendre les bases de la gestion de projet."
+    },
+    {
+        "Formation_Title": "ENTREPRENDRE EN AFRIQUE",
+        "Modules": [
+            {
+                "Module_Title": "COMPRENDRE L'ÉCOSYSTÈME ENTREPRENEURIAL",
+                "Description": "Techniques de planification et d'organisation des projets."
+            },
+            {
+                "Module_Title": "CRÉATION ET GESTION D'UNE ENTREPRISE EN AFRIQUE",
+                "Description": "Identifier et gérer les risques dans les projets."
+            },
+            {
+                "Module_Title": "STRATÉGIES DE DÉVELOPPEMENT ET GESTION DES DÉFIS",
+                "Description": "Favoriser la collaboration au sein d'une équipe."
+            }
+        ],
+        "Description": "Comprendre les bases de la gestion de projet."
+    },
+    {
+        "Formation_Title": "ANGLAIS",
+        "Modules": [
+            {
+                "Module_Title": "ANGLAIS DES AFFAIRES INTERMÉDIAIRE B1",
+                "Description": "Techniques de planification et d'organisation des projets."
+            },
+            {
+                "Module_Title": "ANGLAIS DES AFFAIRES INTERMÉDIAIRE- AVANCÉ B2",
+                "Description": "Identifier et gérer les risques dans les projets."
+            },
+            {
+                "Module_Title": "ANGLAIS DES AFFAIRES TRES AVANCÉ B3",
                 "Description": "Favoriser la collaboration au sein d'une équipe."
             }
         ],

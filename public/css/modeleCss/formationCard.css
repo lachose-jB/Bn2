@@ -129,7 +129,7 @@
   }
   
   .cardF .card_title__container .card_title {
-    font-size: 1rem;
+    font-size: 2rem;
     color: var(--white);
   }
   
@@ -137,7 +137,7 @@
     margin-top: 0.25rem;
     width: 65%;
   
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     color: var(--paragraph);
   }
   

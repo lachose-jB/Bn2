@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     const formationContainer = document.querySelector('#FormationContainer .formaContainer');
-    const modal = document.getElementById('modal');
-    const closeButton = document.querySelector('.close-button');
-    const modalImage = document.getElementById('modalImage'); // Référence à l'image du modal
-    const imgPathUrl = "./img/formation/"; // Chemin de base pour les images
 
     // Fonction pour afficher l'image correspondante dans le modal
     function showImage(imageUrl) {
@@ -20,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return response.text();
             })
             .then(data => {
-                NbCart(5, data); 
+                NbCart(8, data); 
             })
             .catch(error => {
                 console.error('Erreur lors du chargement du fichier formationCard.html :', error);
